@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f6f6fc;
+}
+header {
+    background: #4a4dbb;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.intro {
+    display: flex;
+    padding: 30px;
+    gap: 25px;
+}
+.intro img {
+    width: 300px;
+    border-radius: 15px;
+}
+.video {
+    text-align: center;
+    padding: 20px;
+}
+.timeline {
+    padding: 30px;
+}
+.step {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.step:hover {
+    background: #e2e2ff;
+    transform: scale(1.02);
+}
